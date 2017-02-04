@@ -45,7 +45,19 @@ body{padding-top:50px !important;
   border:0 solid transparent;
 }
 
+#ourNav{
+  background-color: #b2dfdb;
+}
 
+.active{
+  background-color: #000;
+}
+
+
+.ourActive{
+  background-color:#69CCC4;
+  color: #000;
+}
 
 
 @media (min-width: 768px) {
