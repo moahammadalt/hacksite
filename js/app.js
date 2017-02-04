@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  $("#goToCourses").click(function (){
+  $("#goToMentor").click(function (){
         console.log("sdcsdvc");
-          $('html, body').animate({scrollTop: $('#courses').offset().top -100 }, 'slow');
+          $('html, body').animate({scrollTop: $('#mentors').offset().top -100 }, 'slow');
 
   });
 
