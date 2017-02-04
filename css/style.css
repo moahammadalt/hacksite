@@ -3,6 +3,9 @@ body{padding-top:50px !important;
     direction: rtl;
 }
 
+.navbar{background-color: #c1dad6 !important;
+border-bottom-color: transparent !important:}
+
 .centered{
   text-align: center;
 }
