@@ -3,6 +3,7 @@ body{padding-top:50px !important;}
 .carousel {
   height: 500px;
   margin-bottom: 50px !important;
+  width: 100%;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
