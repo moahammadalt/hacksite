@@ -12,9 +12,10 @@
     <title>project</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
-
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -50,18 +51,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#"><img src="photos/logo3.png" class="logo"></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-
-              <li class="ourActive"><a href="#">Home</a></li>
+              <li class="ourActive"  ><a href="#">Home</a></li>
+              <li id="goToMentor"><a href="#">Mentoring</a></li>
               <li id="goToCourses"><a href="#">Our Courses</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#courses">Our courses</a></li>
-              <li><a href="#mentors">mentors</a></li>
-              <li class="dropdown">
+              <li><a href="#">stories</a></li>
+              <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Action</a></li>
@@ -71,19 +69,18 @@
                   <li class="dropdown-header">Nav header</li>
                   <li><a href="#">Separated link</a></li>
                   <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
+                </ul>   
+              </li> -->
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="../navbar/">Default</a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li class="ourActive"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+              
+              <li class="ourActive"><a href="./">Log In <span class="sr-only">(current)</span></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
 
-      <div class="container-fluid full">
+      <div class="container-fluid">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -118,93 +115,131 @@
           </a>
         </div>
 
-        <section id="courses" style="padding-bottom: 200px;">
-          <h1> courses</h1>
-        </section>
-
-        <section id="mentors" style="padding-bottom: 200px;">
-          <h1> mentors </h1>
-        </section>
-      </div>
-      <section id="courses">
-        <div class="container-fluid percent">
-            <div class="row">
-              <h2 class="lined">COURSES</h2>
-              <div class="seperator transparent">
-                <div class="col-xs-6 col-md-3 centered">
-                    <a href="#">
-                      <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                    </a>
-                    <h3>دورة في اللغة</h3>
-                    <p>we prepared an effective course to you to develop your language with our teachers </p>
-                  </div>
-                <div class="col-xs-6 col-md-3 centered">
-                    <a href="#">
-                      <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                    </a>
-                    <h3> الرياضيات</h3>
-                    <p>we prepared an effective course to you to develop your language with our teachers </p>
-                  </div>
-                <div class="col-xs-6 col-md-3 centered">
-                    <a href="#">
-                      <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                    </a>
-                    <h3>الترميز بالطبع</h3>
-                    <p>we prepared an effective course to you to develop your language with our teachers </p>
-
-                  </div>
-                <div class="col-xs-6 col-md-3 centered">
-                    <a href="#">
-                      <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                    </a>
-                    <h3>دورة في اللغة</h3>
-                    <p>we prepared an effective course to you to develop your language with our teachers </p>
-
-                  </div>
-              </div>
+        <section id="mentors">
+          
+          <div class="row">
+            
+            <div class="col-xs-12 col-md-8">
+              <h2 class="headlineColor">How does mentoring work?</h2><br>
+              <h4 class="h4style">
+                MENTOR MEs takes referrals of young people from colleges, social services and a variety of other organisations and individuals.
+              </h4>
+              <h4 class="h4style">
+                We meet the young person for an initial assessment of their educational aspirations and current circumstances
+              </h4>
+              <h4 class="h4style">
+                We match the individual young person with a trained, local volunteer mentor 
+The mentor meets them each week, in a public place, to support them towards their educational goal
+              </h4>
+              <h4 class="h4style">
+                We ask for a minimum commitment of six month from both the young person and the mentor.  After six months the relationship is reviewed to see if both mentor and mentee would like to continue
+              </h4><br>
+              <button type="button" id="firstBtnColor" class="btn btn-primary ">Pick a mentor</button>
+              <button type="button" id="secondBtnColor" class="btn btn-primary ">Be a mentor</button>
             </div>
+            <div class="col-xs-6 col-md-4">
+              <img src="photos/mentorImg.jpg" alt="..." class="img-thumbnail">
+            </div>
+              
+            </div>
+          </div>
+        </section><br><br><br><br><br><br><br>
+
+
+
+        <section id="courses" style="height: 300px;">
+          <div class="row">
+            
+            <div class="col-xs-12 col-md-8">
+              <h2 class="headlineColor">how do we offer the courses?</h2><br>
+              <h4 class="h4style">
+                MENTOR ME is also a platform to the pepole who want to volunteer and give a free or paid courses in diffrent subject as languages, math, programming .
+              </h4>
+              <h4 class="h4style">
+               we are going to evaluate the volunteer teachers and put them in the right courses according to there knowledge.
+              </h4>
+              <h4 class="h4style">
+                we will prepare a free paid places for the courses so the cost of the course will be a free or small amount of cost  
+              <h4 class="h4style">
+                our main goal in this project is to communicate with education or goverment institutes and with civil society organizations to help us to provide classes and suitable atmosphere to the refugee who want to take the course
+              </h4><br>
+              <button type="button" id="firstBtnColor" class="btn btn-primary ">Pick a course</button>
+              <button type="button" id="secondBtnColor" class="btn btn-primary ">Be a course teacher</button>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <img src="photos/course.jpg" alt="..." class="img-thumbnail">
+            </div>
+              
+            </div>
+          </div>
+        </section><br><br><br><br>
+
+        <section class="container">
+        <h2 class="headlineColor">Testimonials</h2><br><br><br>
+          <div class="row">
+            <div class="col-xs-6 col-md-4">
+              <blockquote class="testimonial">
+              <p>The quick brown fox jumped over the lazy dog. The dog ran away and the fox broke her leg.</p>
+          </blockquote>
+          <div class="arrow-down"></div>
+          <p class="testimonial-author">refugee 1</p>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <blockquote class="testimonial">
+              <p>The quick brown fox jumped over the lazy dog. The dog ran away and the fox broke her leg.</p>
+          </blockquote>
+          <div class="arrow-down"></div>
+          <p class="testimonial-author">refugee 2</p>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <blockquote class="testimonial">
+              <p>The quick brown fox jumped over the lazy dog. The dog ran away and the fox broke her leg.</p>
+          </blockquote>
+          <div class="arrow-down"></div>
+          <p class="testimonial-author">refugee 3</p>
+            </div>
+          </div>
+          
+        </section><br><br><br><br><br><br><br><br><br><br>
+
+        
+
+          <section class="container-fluid" style="background-color: #e0e0e0">
+        <div class="row" id="fo1">
+          <ul>
+            <li class="ul1"><a href="#">Log in</a></li>
+            <li class="ul"><a href="#">About us</a></li>
+            <li class="ul"><a href="#">Our partners</a></li>
+            
+          </ul>
         </div>
       </section>
 
-        <section id="mentors">
-          <div class="container-fluid percent">
-              <div class="row">
-                <div class="seperator transparent">
-                    <div class="col-xs-6 col-md-3 centered">
-                      <a href="#">
-                        <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                      </a>
-                      <h3>دورة في اللغة</h3>
-                      <p>Educational mentorship for kids </p>
-                    </div>
-                    <div class="col-xs-6 col-md-3 centered">
-                      <a href="#">
-                        <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                      </a>
-                      <h3> الرياضيات</h3>
-                      <p>Educational mentorship for youth </p>
-                    </div>
-                    <div class="col-xs-6 col-md-3 centered">
-                      <a href="#">
-                        <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                      </a>
-                      <h3>الترميز بالطبع</h3>
-                      <p>Educational mentorship for universities </p>
+        <section class="container-fluid" style="background-color:  rgba(0, 150, 136, 0.3) ">
+      <div class="dd">
+        <div class="fo2">
+          <p class="fop">You can contact us on the social media :</p><br>
+        </div>
+        <div class="fo3">
+          
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
 
-                    </div>
-                    <div class="col-xs-6 col-md-3 centered">
-                      <a href="#">
-                        <img src="" data-src="holder.js/140x140" alt="140x140" class="img-circle"  >
-                      </a>
-                      <h3>دورة في اللغة</h3>
-                      <p>Educational mentorship for proffesionals </p>
+        </div>
+        <div class="fo4">
+          © All Rights Reserved<p style="display: inline; color: #e74431"> LOOK IN MENA</p>
+          <a href="#" class="go-top">Go Top</a>
+        </div>
 
-                    </div>
+      </div>
+    </section>
+     
+      </div>
 
-                </div>
-              </div>
-          </div>
-        <section>
+
+
+
 
 
 
@@ -219,7 +254,7 @@
     <script>window.jQuery || document.write('<script src="../js/vendor/jquery.min.js"><\/script>')</script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/holder.min.js"></script>
+    <script src="js/vendor/holder.min.js"></script>
 
   </body>
 </html>
